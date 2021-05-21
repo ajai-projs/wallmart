@@ -1,0 +1,36 @@
+    1  exit
+    2  git status
+    3  git remote -v
+    4  git remote add wallmart https://github.com/ajai-projs/wallmart.git
+    5  git remote -v
+    6  git config --global user.name "ajay0353"
+    7  git config --global user.email "ajay.paragodu@gmail.com"
+    8  git commit --amend --reset-author
+    9  git status
+   10  git add .
+   11  git commit -m "2nd commit"
+   12  git status
+   13  git remote add wallmart https://github.com/ajai-projs/wallmart.git
+   14  git status
+   15  ls
+   16  cd wallmart
+   17  ls
+   18  vi users.java
+   19  git status
+   20  ls
+   21  vi DBUtils.java 
+   22  git status
+   23  git add users.java
+   24  git status
+   25  git commit -m "added users.java file"
+   26  git status
+   27  vi deploy.sh
+   28  git status
+   29  git add .
+   30  git staus
+   31  git status
+   32  git commit -m "added deploy.sh file"
+   33  git push
+   34  git push origin
+   35  git push wallmart master
+   36  history > history.txt

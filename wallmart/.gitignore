@@ -2,3 +2,7 @@
 #
  .classpath
  .project
+.bash_profile
+.bashrc
+.bash_logout
+.bash_history

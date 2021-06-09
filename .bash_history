@@ -146,3 +146,217 @@ sudo su -
 ec2-user
 exig
 exit
+cd wallmart/
+git push wallmart :development
+git branch
+git branch -l
+git branch -r
+exit
+git branch
+cd wallmart
+git branch development
+git branch
+git log
+git checkout development
+git status
+git branch
+vi stringUtils.java
+git status
+git branch master
+git add .
+git commit -m "added sting utils file"
+git branch
+git checkout master
+git status
+git branch
+ls
+git checkout development
+git branch
+git status
+ls
+git diff
+git diff development
+git diff qa development
+git diff development
+git branch
+git merge development
+git branch master
+git checkout master
+ls
+git diff development
+git merge development
+git diff development
+git branch
+git branch stage development
+git branch
+vi deploy.sh
+git commit -a -m "updated in master branch"
+git checkout development
+git branch
+vi deploy.sh
+git commit -a -m "updated from development branch"
+git branch
+git checkout master
+cat deploy.sh
+git branch development
+git checkout development
+cat deploy.sh
+git checkout master
+git diff development
+git branch
+git merge development
+git commit -a -m "Conflict resolved"
+git branch
+git checkout development
+git status
+git checkout development
+vi deploy.sh
+git commit -a -m "changed from development branch"
+git checkout master
+git merge development
+git branch
+git push wallmart master
+git checkout development
+git push wallmart development
+git checkout stage
+ls
+vi dbutils.java
+git commit -a -m "creating dbuitls.java file from stage branch"
+git add .
+git commit -a -m "creating dbuitls.java file from stage branch"
+git status
+git branch
+git checkout development
+ls
+git checkout stage
+ls
+mv dbutils.java test2.java
+ls
+git add test2.java 
+git commit -a -m "renamed file from stage branch"
+git checkout master
+git push wallmart master
+git checkout stage
+ls
+git push wallmart master
+git checkout master
+ls
+git pull
+git branch
+git checkout stage
+git push wallmart master
+git checkout master
+git pull
+git push 
+git push wallmart master
+git status
+ls
+git checkout stage
+ls
+git push 
+git push master
+git push master stage
+git branch
+git checkout master
+git push master stage
+git branch
+git branch development dev
+git branch -m development dev
+git branch
+git checkout dev
+git branch -d stage
+git branch -D stage
+git branch
+git remote -b
+git remote -v
+git branch
+git branch stage dev
+git branch
+git checkout stage
+git branch
+git status
+ls
+vi test3.java
+git status
+git add .
+git commit -m "added new test3.java file from stage branch"
+git status
+git checkout master
+ls
+git checkout stage
+ls
+git branch
+git master
+git checkout master
+git diff stage master
+vi .gitignore
+git merge stage
+ls
+git branch
+ls
+git branch
+tob
+git branch
+vi deploy.sh
+git -version
+git --version
+git status
+cd /opt
+ls
+cd /etc
+ls
+cd ..
+ls
+cd /home
+ls
+cd /
+cd dev
+ls
+cd ..
+ls
+sudo -i
+git status
+pwd
+cd /home/ec2-user
+;s
+ls
+cd wallmart
+ls
+git branch
+git status
+git commit -a -m "changes to deploy.sh from master branch"
+git checkout dev
+git branch
+git status
+vi deploy.sh
+cd wallmart/
+ls
+vi deploy.sh
+git branch
+git commit -a -m "updated from dev branch"
+git checkout master
+vi deploy.sh
+git checkout master
+git checkout dev
+vi deploy.sh
+git checkout master
+git diff dev
+git merge dev
+git branch
+vi deploy.sh
+git commit -a -m "conflict resolved"
+git merge dev
+git push wallmart master
+git checkout -b qa
+git branch
+git branch r
+git branch -r
+git branch -l
+git push wallmart dev
+git push wallmart --all
+git status
+cd wallmart
+git branch
+git checkout master
+git tags
+git tag
